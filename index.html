@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFIR - Federación de Fútbol Internacional Roblox</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Menú de hamburguesa -->
+    <nav>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#">Competencias</a></li>
+            <li><a href="#">Premios</a></li>
+            <li><a href="#">Ligas</a></li>
+            <li><a href="#">Clubes</a></li>
+            <li><a href="#">Información y Privacidad</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <img src="https://images-ext-1.discordapp.net/external/0-Vz0P3itsQ-PSmsvFWxZXs-BmzxGUFp0DPn9JkIhrg/%3Fsize%3D128/https/cdn.discordapp.com/icons/1325119542837514350/8b410c505d7bee2025f9e5f83c112dde.png?format=webp&quality=lossless" alt="Logo FFIR" class="logo">
+        <h1>Federación de Fútbol Internacional Roblox #2025</h1>
+        <p>Bienvenido al sitio oficial de la FFIR de Roblox.</p>
+        <p>Aquí encontrarás todo tipo de información sobre la FFIR oficial. Actualizamos cada hora y día con nuevas noticias.</p>
+    </div>
+
+    <!-- Script para el menú de hamburguesa -->
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const menu = document.getElementById('menu');
+
+        menuIcon.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
