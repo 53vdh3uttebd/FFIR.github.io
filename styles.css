@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://editorial.uefa.com/resources/0295-1ce430b9a75a-6f2670b8d1bc-1000/format/ultrawide/fbl-eur-c1-arsenal-dinamo_zagreb.jpeg?imwidth=2048');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Descripción */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Menú de hamburguesa */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.menu li a:hover {
+    color: #ffcc00;
+}
